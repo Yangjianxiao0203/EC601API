@@ -1,0 +1,18 @@
+ 1. To connect with google cloud: Need to set up a service account and the key
+ Reference: https://www.youtube.com/watch?v=iqRgOdJZtiY
+ wibsite: https://console.cloud.google.com/iam-admin/serviceaccounts/details/111273889594197677930;edit=true?project=jianxiao602nlp&supportedpurview=project
+
+ 2. I recommend to build an virtual environment (not use iPython on google)
+    reference:https://cloud.google.com/python/docs/setup
+
+ 3. to echo environment path on venv:https://www.roelpeters.be/set-environment-variables-in-virtual-environment-python/
+    import os
+    path="/Users/jianxiaoyang/Downloads/jianxiao602nlp-d001e4497302.json"
+    path2="/Users/jianxiaoyang/Documents/EC601 software/google nlp api/jianxiao602nlp-d001e4497302.json"
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = path2
+
+
+twitter v2 api:
+reference:https://github.com/twitterdev/getting-started-with-the-twitter-api-v2-for-academic-research
+            https://developer.twitter.com/en/docs/twitter-api/expansions
+            https://www.youtube.com/watch?v=0EekpQBEP_8
