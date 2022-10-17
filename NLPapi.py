@@ -58,8 +58,15 @@ def classify_text(text):
         print(f"category  : {category.name}")
         print(f"confidence: {category.confidence:.0%}")
 
-texts = ["I won't be back today","l will be home"]
-for text in texts:
-    analyze_text_sentiment(text)
+f=open('/Users/jianxiaoyang/Documents/EC601 software/google nlp api/env/test/data.txt','r',encoding='UTF-8')
+line=f.readline()
+index=0
+while index<10:
+    analyze_text_sentiment(line)
+    line=f.readline()
+    index=index+1
+
+# for text in texts:
+#     analyze_text_sentiment(text)
 # classify_text(text)
 # analyze_text_entities(text)
