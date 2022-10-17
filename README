@@ -16,3 +16,9 @@ twitter v2 api:
 reference:https://github.com/twitterdev/getting-started-with-the-twitter-api-v2-for-academic-research
             https://developer.twitter.com/en/docs/twitter-api/expansions
             https://www.youtube.com/watch?v=0EekpQBEP_8
+
+
+UserStory:
+I wanna use tweepy to get all users' contents and use NLP to classify the content and find out what most people are talking about.
+Meanwhile, I wanna use NLP to analyze their syntax and find out how most people feel.
+My model are for those who want to know the current trend.
