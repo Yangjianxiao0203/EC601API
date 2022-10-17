@@ -58,5 +58,8 @@ def classify_text(text):
         print(f"category  : {category.name}")
         print(f"confidence: {category.confidence:.0%}")
 
-text = "I won't be back today"
-analyze_text_sentiment(text)
+texts = ["I won't be back today","l will be home"]
+for text in texts:
+    analyze_text_sentiment(text)
+# classify_text(text)
+# analyze_text_entities(text)
